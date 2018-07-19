@@ -199,7 +199,16 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+      .container-fluid {
+        width:100%;
+     }
+     .day {
+       height: 14.2857vw;
+   }
+   .gmap_canvas{
+     margin: auto;
+     width: 100%;
+   }
 }
 
 @media print,
