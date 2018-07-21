@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="bootstrap-social.css" rel="stylesheet" >
+ <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body style="background:#e1ebf5;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" class="bg #343a40;">
+    <img src="/home/balenakoi/sites/sportif/img/gym.png" style="width:10%; height:100px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="prices.html">prices</a>
+        <a class="nav-item nav-link" href="presentation.html">presentation</a>
+        <a class="nav-item nav-link" href="contact.html">contact</a>
+      </div>
+    </div>
+  </nav>
+
+
+<section >
+  <div class="d-flex justify-content-center">
+    <div class="align-self-start">
+      <h1 style="font-size:30px;" class="col mt-4">Consult our rates for a sports coach and order hours 💪</h1>
+     <pcol class="d-flex justify-content-center" style="font-size:15px;">Our rates are decreasing, the more you buy hours the more the price is interresting</p>
+   </div>
+ </div>
+     <div id="wrap">
+    <div id="seances">
+        <div  class="row d-flex justify-content-around" style="margin:auto;">
+        <div id="rechercheCoach"  class="col-sm-5 mt-5" style="background:#7cbce2;">
+            <div id="form">
+                <select class="col align-self-start  mt-3"  name="type" id="type">
+                    <option value="decouverte" selected="selected">Offer 1h discovery</option>
+                    <option value="heures">Buy hours</option>
+                    <option value="cotisation">Settle my dues</option>
+                </select>
+
+
+                <select class="col align-self-start" name="nbPers" id="nbPers">
+                    <option value="1" selected="selected">1 person</option>
+                    <option value="2">2 person</option>
+                    <option value="3">3 person and +</option>
+                </select>
+                <div id="quantite" >
+                  <label class="d-flex justify-content-center mt-4" for="nbH">Amount</label><br>
+                  <div class="d-flex justify-content-center">
+                  <input type="number" id="nbH" min="1" value="1">
+                </div>
+                </div>
+                <p id="error"></p>
+            </div>
+
+            <div id="calcul">
+                <p  class="d-flex justify-content-between" >Total to settle <span>1x38€=38€</spans></p><br>
+                <p>50% tax credit in 2019 <br><a id="impots" style="color:white; "href="#">More informations</a></p>
+                <p class="d-flex justify-content-end"><span id="qteAR">1</span> x <span id="puAR">19</span>€ = <span id="ptAR">19</span>€</p>
+                <input type="button" name="submit" id="addCart" value="Ajouter au panier">
+        </div>
+    </div>
+  <div class="table-responsive- mt-5" style="background:#7cbce2;">
+    <table class="table table-bordered ">
+    <thead class="thead-dark">
+      <tr>
+        <th>Number of hours ordered</th>
+        <th>BEFORE Tax reduction of 50%</th>
+        <th>AFTER 50% tax reduction</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1h discovery</td>
+        <td>38€/h</td>
+        <td>19€/h</td>
+      </tr>
+      <tr>
+        <td>Less than 5h</td>
+        <td>50€/h</td>
+        <td>25€/h</td>
+      </tr>
+      <tr>
+        <td>5h to 9h</td>
+        <td>48€/h</td>
+        <td>24€/h</td>
+      </tr>
+      <tr>
+        <td>10h to 19h</td>
+        <td>46€/h</td>
+        <td>23€/h</td>
+      </tr>
+      <tr>
+        <td>20h to 29h</td>
+        <td>44€/h</td>
+        <td>22€/h</td>
+      </tr>
+      <tr>
+        <td>30h to 49h</td>
+        <td>42€/h</td>
+        <td>21€/h</td>
+      </tr>
+      <tr>
+        <td>50h to 99h</td>
+        <td>40€/h</td>
+        <td>20€/h</td>
+      </tr>
+      <tr>
+        <td>100h and +</td>
+        <td>38€/h</td>
+        <td>19€/h</td>
+      </tr>
+    </tbody>
+  </table>
+
+      <p class="d-flex justify-content-center">If you are several, add 4 € per additional person 😉</p>
+         </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+<footer class="mt-5 w-auto bg-info">
+  <div class="row m-0">
+    <div  class="col">
+      <div class=" d-flex justify-content-end">
+         <p class="text-center"> CopyRight © 2018</p>
+         <a class="fb-ic mr-3 "><i class="fa fa-lg fa-github"> </i></a>
+         <a class="tw-ic mr-3 "><i class="fa fa-lg fa-twitter"> </i></a>
+         <a class="gplus-ic mr-3 "><i class="fa fa-lg fa-linkedin"> </i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
+
+  </html>
